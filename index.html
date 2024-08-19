@@ -7,12 +7,13 @@
 </head>
 <body>
     <div class="div">
-    <button type="button" onclick="alerta()">Saludar</button>  
+    <button type="button" onclick="alerta(event)">Saludar</button>  
     </div>
 
     <script>
-        function alerta(){
+        function alerta(event){
             alert("Hola!");
+            event.stopPropagation();
         }
     </script>
 
