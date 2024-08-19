@@ -1,7 +1,7 @@
 const div = document.querySelector("div");
 
-function alerta() {
+function alertaDiv() {
     alert("Hola! Soy el div");
 }
 
-div.addEventListener ("click", alerta);
+div.addEventListener ("click", alertaDiv);
